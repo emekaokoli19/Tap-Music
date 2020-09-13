@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin: 5% 0% 2% 0%;
+    text-align: center;
+    font-size: 300%;
+}
+header h3{
+    margin-bottom: 3%;
+    text-align: center;
+}
+.boards{
+    background-color:black;
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+.boards > div{
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+.board1{
+    background:blue;
+}
+.board2{
+    background:brown;
+}
+.board3{
+    background:yellow;
+}
+.board4{
+    background:darkgreen;
+}
+.board5{
+    background:darkred;
+}
+.board6{
+    background:blueviolet;
+}
+.board7{
+    background: rgb(0, 22, 3);
+}
