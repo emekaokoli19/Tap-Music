@@ -24,7 +24,7 @@ window.addEventListener("load", () => {
         const text = document.getElementById("text")
         const music_name = document.getElementById("songName")
         board.addEventListener("click", function(){
-            //statement checks if song changes
+            //statement checks if the song changes
             if(song_index != sounds[index]){
                 //stops previously playing song
                 sounds.forEach((sound) => {
